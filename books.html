@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Books</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Website name</a>
+      <input type="checkbox" id="menu-toggle" aria-label="Toggle menu">
+      <label class="menu-btn" for="menu-toggle">Menu</label>
+      <nav aria-label="Main menu">
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="books.html" aria-current="page">Books</a>
+        <a href="quiz.html">Practice Quiz</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <div class="wrap">
+      <aside aria-label="Books">
+        <div class="box">
+          <h2>Books</h2>
+          <ol>
+            <li><a href="#b1">Maths Made Clear</a></li>
+            <li><a href="#b2">Geometry and Shapes</a></li>
+            <li><a href="#b3">Computer Science Basics</a></li>
+            <li><a href="#b4">Intro to Programming</a></li>
+          </ol>
+        </div>
+      </aside>
+      <main>
+        <h1>Free books</h1>
+        <p>Open a book to see what is inside. Every title is free to read.</p>
+        <details id="b1">
+          <summary>Maths Made Clear</summary>
+          <p>Worked examples covering fractions, percentages, ratios and algebra for ages 12 to 16.</p>
+          <p><a class="btn" href="#">Read free online</a></p>
+        </details>
+        <details id="b2">
+          <summary>Geometry and Shapes</summary>
+          <p>Learn angles, area, perimeter and volume with simple diagrams and practice questions.</p>
+          <p><a class="btn" href="#">Read free online</a></p>
+        </details>
+        <details id="b3">
+          <summary>Computer Science Basics</summary>
+          <p>An introduction to how computers work, including hardware, software, binary and the internet.</p>
+          <p><a class="btn" href="#">Read free online</a></p>
+        </details>
+        <details id="b4">
+          <summary>Intro to Programming</summary>
+          <p>Beginner-friendly guide to algorithms, variables, loops and simple programs.</p>
+          <p><a class="btn" href="#">Read free online</a></p>
+        </details>
+      </main>
+    </div>
+    <footer>&copy; 2026 Website name</footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practice Quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">Website name</a>
+      <input type="checkbox" id="menu-toggle" aria-label="Toggle menu">
+      <label class="menu-btn" for="menu-toggle">Menu</label>
+      <nav aria-label="Main menu">
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="books.html">Books</a>
+        <a href="quiz.html" aria-current="page">Practice Quiz</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <div class="wrap single">
+      <main>
+        <h1>Practice quiz</h1>
+        <p>Pick an answer. You get feedback straight away.</p>
+        <div class="quiz">
+          <div class="q" role="radiogroup" aria-labelledby="q1-text">
+            <h2 class="question" id="q1-text">1. What is 25% of 80?</h2>
+            <label><input type="radio" name="q1" id="q1a" class="no"> 15</label>
+            <label><input type="radio" name="q1" id="q1b" class="ok"> 20</label>
+            <label><input type="radio" name="q1" id="q1c" class="no"> 25</label>
+            <p class="good">Correct, well done!</p>
+            <p class="bad">Not quite. Try another answer.</p>
+          </div>
+          <div class="q" role="radiogroup" aria-labelledby="q2-text">
+            <h2 class="question" id="q2-text">2. Solve for x: x + 4 = 10</h2>
+            <label><input type="radio" name="q2" id="q2a" class="no"> 14</label>
+            <label><input type="radio" name="q2" id="q2b" class="ok"> 6</label>
+            <label><input type="radio" name="q2" id="q2c" class="no"> 40</label>
+            <p class="good">Correct, well done!</p>
+            <p class="bad">Not quite. Try another answer.</p>
+          </div>
+          <div class="q" role="radiogroup" aria-labelledby="q3-text">
+            <h2 class="question" id="q3-text">3. What is 2 + 3?</h2>
+            <label><input type="radio" name="q3" id="q3a" class="no"> 3</label>
+            <label><input type="radio" name="q3" id="q3b" class="ok"> 5</label>
+            <label><input type="radio" name="q3" id="q3c" class="no"> 7</label>
+            <p class="good">Correct, well done!</p>
+            <p class="bad">Not quite. Try another answer.</p>
+          </div>
+          <div class="q" role="radiogroup" aria-labelledby="q4-text">
+            <h2 class="question" id="q4-text">4. What is an algorithm?</h2>
+            <label><input type="radio" name="q4" id="q4a" class="ok"> A step-by-step set of instructions</label>
+            <label><input type="radio" name="q4" id="q4b" class="no"> A type of computer screen</label>
+            <label><input type="radio" name="q4" id="q4c" class="no"> A kind of keyboard</label>
+            <p class="good">Correct, well done!</p>
+            <p class="bad">Not quite. Try another answer.</p>
+          </div>
+          
+        </div>
+      </main>
+    </div>
+    <footer>&copy; 2026 Website name</footer>
+  </body>
+</html>
